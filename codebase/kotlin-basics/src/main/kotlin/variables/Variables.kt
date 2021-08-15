@@ -1,0 +1,4 @@
+package variables
+
+fun main() {
+}
