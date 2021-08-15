@@ -5,7 +5,7 @@
 1. Variables - var, val and const
 1. Type inference
 1. Pairs and Triple
-1. Destructuring or decomopsing
+1. Destructuring or decomposing
 1. Collections - list, map and set
 1. Mutability
 1. Function manipulation
@@ -69,3 +69,19 @@
 ### List
 ### Map
 ### Set
+
+---
+---
+
+## Scope functions
+
+ | Method       |  Context object        | Return data    | Use case                                       |
+ |---           |---                     |---             |---                                             |
+ | **let**      | it - lambda parameter  | lambda result  | null check, expression as variable             |
+ | **run**      | this - lambda receiver | lambda result  | object configuration and computing the result  |
+ | **with**     | this - lambda receiver | lambda result  | grouping function calls with an object         |
+ | **apply**    | this - lambda receiver | context object | object configuration                           |
+ | **also**     | it - lambda parameter  | context object | additional effects                             |
+
+---
+---
