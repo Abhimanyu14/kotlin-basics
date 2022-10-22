@@ -4,7 +4,7 @@ import kotlinx.coroutines.*
 
 var acquired = 0
 
-// Mocking a resurce
+// Mocking a resource
 class Resource {
     init {
         acquired++
@@ -204,6 +204,6 @@ suspend fun cancelDemo9() = coroutineScope {
             }
         }
     }
-    // Outside of runBlocking all coroutines have completed
+    // Outside the runBlocking all coroutines have completed
     println(acquired) // Print the number of resources still acquired
 }
